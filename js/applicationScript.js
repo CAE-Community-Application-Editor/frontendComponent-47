@@ -40,7 +40,9 @@ var init = function() {
 
   };
 
-  client = new Las2peerWidgetLibrary("$Microservice_Url$/music", iwcCallback, '*');
+  client = new Las2peerWidgetLibrary("$Microservice_Url$/music", iwcCallback, '*'); 
+ 
+  this.loadSongs();
 
 
 
